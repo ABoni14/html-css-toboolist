@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  padding-left: 30px;
+}
+
+header img{
+  width: 70px;
+  vertical-align: middle;
+}
+
+header h1{
+  display: inline-block;
+  font-size: 50px;
+  vertical-align: middle;
+}
