@@ -26,14 +26,13 @@ header h1{
   vertical-align: middle;
 }
 
-
 /***** MAIN *****/
 
 .container{
   background-color: white;
   width: 80%;
   margin: 0 auto;
-  padding-left: 50px;
+  padding-left: 70px;
 }
 
 .button{
@@ -69,19 +68,24 @@ header h1{
   font-weight: 900;
   font-size: 30px;
   vertical-align: middle;
+  padding-bottom: 20px;
 }
+
 
 .new-task .check{
   display: inline-block;
+  margin-bottom: 15px;
 }
 
 .mark-form{
   display: inline-block;
   font-size: 12px;
   color: white;
-  padding: 0px 4px 0px 4px;
+  padding: 0px 10px 0px 10px;
   border-radius: 12px;
 }
+
+
 
 .text-main{
   font-size: 25px;
@@ -89,4 +93,24 @@ header h1{
 
 .mark-blu{
   background-color: #45abea;
+}
+
+.mark-violet{
+  background-color: #9c72e4;
+}
+
+.mark-green{
+  background-color: #64c0a9;
+}
+
+.mark-orange{
+  background-color: #f29e33;
+}
+
+.mark-pink{
+  background-color: #d863a1;
+}
+
+.mark-lightgreen{
+  background-color: #b0c926;
 }
