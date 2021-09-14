@@ -6,6 +6,7 @@
 
 body{
   background-color: #f6f8f9;
+  font-family: 'Roboto', sans-serif;
 }
 
 /***** HEADER *****/
@@ -36,7 +37,8 @@ header h1{
 }
 
 .button{
-  padding: 20px 20px 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 2px solid #f6f8f9;
 }
 
@@ -109,6 +111,10 @@ header h1{
   color: white;
   padding: 0px 10px 0px 10px;
   border-radius: 12px;
+}
+
+section div{
+  margin-bottom: 10px;
 }
 
 section span{
