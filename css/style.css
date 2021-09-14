@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #f6f8f9;
+}
+
+/***** HEADER *****/
 header{
   padding-left: 30px;
+  background-color: white;
+  margin-bottom: 50px;
 }
 
 header img{
@@ -17,4 +24,69 @@ header h1{
   display: inline-block;
   font-size: 50px;
   vertical-align: middle;
+}
+
+
+/***** MAIN *****/
+
+.container{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.button{
+  padding: 20px 20px 20px 0;
+  border-bottom: 2px solid #f6f8f9;
+}
+
+.button .form-button{
+  color: white;
+  padding: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.button .task{
+  background-color: #47adf1;
+  color: white;
+}
+
+.button .section{
+  background-color: white;
+  color: #cdd2d6;
+}
+
+.new-task{
+  padding-top: 15px;
+  line-height: 30px;
+}
+
+.new-task h2{
+  display: inline-block;
+  font-weight: 900;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.new-task .check{
+  display: inline-block;
+}
+
+.mark-form{
+  display: inline-block;
+  font-size: 12px;
+  color: white;
+  padding: 0px 4px 0px 4px;
+  border-radius: 12px;
+}
+
+.text-main{
+  font-size: 25px;
+}
+
+.mark-blu{
+  background-color: #45abea;
 }
