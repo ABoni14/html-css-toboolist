@@ -12,112 +12,103 @@
 </head>
 
 <body>
-  <!-- Logo and title -->
+  
+  <!-- Logo and text -->
   <header>
-    <img src="img/Logo.png" alt="">
-    <h1>Toboolist</h1>
+    <img  id="logo" src="img/Logo.png" alt="">
+    <span id="logo-text">Toboolist</span>
   </header>
-  <!-- /Logo and title -->
+  <!-- /Logo and text -->
 
   <main>
-    <div>
-      <section class="container button">
-        <button class="form-button task">Add Task</button>
-        <button class="form-button section">Add Section</button>
-      </section>
-    </div>
-
     <div class="container">
 
       <!-- Top button -->
-      <!-- <section class="button">
-        <button class="form-button task">Add Task</button>
-        <button class="form-button section">Add Section</button>
-      </section> -->
+      <div class="top">
+        <button class="btn btn-fill">Add Task</button>
+        <button class="btn btn-empty">Add </button>
+      </div>
       <!-- /Top button -->
 
-      <!-- Top main -->
-      <section class="new-task">  
-        <div>
-          <span class="arrow">&#9660;</span>
-          <h2>New Task</h2>
-        </div>
+      <!-- Central body -->
+      <div class="botton">
+        
+        <ul>
+          <!-- First section -->
+          <li>
+            <h3> New Task</h3>
+            <ul class="second-level-list">
+              <li>
+                <span class="circle checked"></span>
+                Quartely Newsletter
+                <span class="tag tag-editorial">Editorial</span>
+              </li>
+            </ul>
+          </li>
+          <!-- /First section -->
 
-        <div>
-          <span class="check color-check">&#10004;</span>
-          <span class="text-main">Quartely Newsletter</span>
-          <div class="mark-blu mark-form">Editorial</div>
-        </div>
-      </section>
-      <!-- /Top main -->
+          <!-- Second section -->
+          <li>
+            <h3> Today</h3>
+            <ul class="second-level-list">
+              <li>
+                <span class="circle checked"></span>
+                Recruiting  blog post
+                <span class="tag tag-editorial">Editorial</span>
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                Mobile app lauch
+                <span class="tag tag-goals">Q1 Goals</span>
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                Interview John H.
+                <span class="tag tag-recru">Recruiting</span>
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                Summit update to mobile storefronts
+                <span class="tag tag-mobile">Mobile</span>
+              </li>
+            </ul>
+          </li>
+          <!-- /Second section -->
 
-      <!-- Middle main -->
-      <section class="new-task">  
-        <div>
-          <span>&#9660;</span>
-          <h2>Today</h2>
-        </div>
+          <!-- Third section -->
+          <li>
+            <h3> Upcoming</h3>
+            <ul class="second-level-list">
+              <li>
+                <span class="circle delete"></span>
+                Schedule meeting with Alex
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                Homepage refresh
+                <span class="tag tag-website">Website</span>
+              </li>
+              <li>
+                <span class="circle delete"></span>
+                Onboard new Sales members
+                <span class="tag tag-sale">Sales</span>
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                Review editorial calendar
+                <span class="tag tag-editorial">Editorial</span>
+              </li>
+            </ul>
+          </li>
+          <!-- /Third section -->
 
-        <div>
-          <span class="check color-check">&#10004;</span>
-          <span class="text-main">Recruiting blog post</span>
-          <div class="mark-blu mark-form">Editorial</div>
-        </div>
+        </ul>
+      </div>
+      <!-- /Central body -->
 
-        <div>
-          <span class="check color-check">&#10004;</span>
-          <span class="text-main">Mobile app launch</span>
-          <div class="mark-violet mark-form">Q1 Goals</div>
-        </div>
-
-        <div>
-          <span class="check color-nocheck">&#10006</span>
-          <span class="text-main">Interview John H.</span>
-          <div class="mark-green mark-form">Recruiting</div>
-        </div>
-
-        <div>
-          <span class="check color-check">&#10004;</span>
-          <span class="text-main">Summit update to mobile storefronts</span>
-          <div class="mark-orange mark-form">Mobile</div>
-        </div>
-      </section>
-      <!-- /Middle main -->
-
-      <!-- Bottom main -->
-      <section class="new-task">  
-        <div>
-          <span>&#9660;</span>
-          <h2>Upcoming</h2>
-        </div>
-
-        <div>
-          <span class="check color-nocheck">&#10006</span>
-          <span class="text-main">Schedule meeting with Alex</span>
-        </div>
-
-        <div>
-          <span class="check color-check">&#10004;</span>
-          <span class="text-main">Homepage refresh</span>
-          <div class="mark-pink mark-form">Website</div>
-        </div>
-
-        <div>
-          <span class="check color-check">&#10004;</span>
-          <span class="text-main">Onboard new Sales team members</span>
-          <div class="mark-lightgreen mark-form">Sales</div>
-        </div>
-
-        <div>
-          <span class="check color-check">&#10004;</span>
-          <span class="text-main">Review editorial calendar</span>
-          <div class="mark-blu mark-form">Mobile</div>
-        </div>
-      </section>
-      <!-- /Bottom main -->
-      
     </div>
+    
   </main>
-  
+           
 </body>
 </html>
